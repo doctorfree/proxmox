@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp fullchain.pem /etc/pve/nodes/pve/pveproxy-ssl.pem
+sudo cp private-key.pem /etc/pve/nodes/pve/pveproxy-ssl.key
